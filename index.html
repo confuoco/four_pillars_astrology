@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>四柱推命</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function JS_CKSK_oracle(){
+	alert(oracle_setting.year.value);
+	alert(oracle_setting.month.value);
+	alert(oracle_setting.day.value);
+}
+</script>
+<link rel="stylesheet" href="">
+<link rel="shortcut icon" href="">
+</head>
+<body>
+<form name="oracle_setting">
+年<input type="text" maxlength=4 name="year" size=4 value="2022"><br/>
+月<input type="text" maxlength=2 name="month" size=2 value="12"><br/>
+日<input type="text" maxlength=2 name="day" size=2 value="31"><br/>
+<button onclick="JS_CKSK_oracle()">診断</button>
+</form>
+</body>
+</html>
